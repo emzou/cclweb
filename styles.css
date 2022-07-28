@@ -1,0 +1,195 @@
+body {
+    background-color: #f5f5f7; 
+    font-family: "Tahoma", sans-serif; 
+}
+
+.grid-container {
+    display: grid; 
+    grid-template-columns: auto auto auto;  
+    justify-content: space-evenly; 
+    background-color: white;  
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 2px solid #dbceda;
+    border-radius: 25px;
+ }
+
+.wrapperz {
+    margin: 5px;
+    position: relative;
+    justify-content: center;
+    align-content: space-between; 
+    padding: 8px;
+}
+
+
+.fullheader {
+    position: relative; 
+    text-align: center; 
+    color: white;
+    background-image: url("beesmart.png");
+    background-repeat: repeat-x, repeat-y;
+    height: 350px;
+    margin: 0;
+    border-radius: 25px;
+}
+
+.staffheader {
+  position: relative; 
+    text-align: center; 
+    color: white;
+    background-image: url("Follower.png");
+    background-repeat: repeat-x, repeat-y;
+    height: 350px;
+    margin: 0;
+    border-radius: 25px;
+}   
+
+.subheader { 
+    font-color: #635d63;
+    font-family: "Tahoma", sans-serif;
+    margin: 1px;
+    bottom: 20%;
+    float: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contenteu {
+    position: relative;
+} 
+
+img{
+    margin: 1%; 
+    object-fit: cover;
+    overflow: hidden; 
+    width: 200px; 
+    height: 200px; 
+    align: center; 
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fadein img{
+opacity:0.7;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
+
+.image {
+    display: inline-block;
+    float:center;
+    align: center;
+    border-radius: 25px;
+    position: relative;
+}
+
+      
+.text {
+    margin:2px; 
+    float:center;
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    
+}
+
+.specialwrapper {
+    width: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 2px solid #dbceda;
+    border-radius: 25px;
+}
+
+.bigpic {
+    margin-right: 5px; 
+    border-radius: 10px;
+    object-fit: cover;
+    float: left;
+    padding: 4px;
+}
+
+.cooltext {
+    display: block; 
+    top: 50%;
+    margin: 3px;
+    padding: 8px;
+}
+
+
+.name {
+       margin:2px; 
+       float: center; 
+       font-size: 1.4em; 
+       font-family: "Tahoma", sans-serif;
+       color: #635d63;      
+}
+
+.header {
+    margin:3%;
+    font-size: 2em;
+    font-family: "Tahoma", sans-serif, bold;
+    padding: 3px; 
+    text-align: center;
+} 
+
+.bigheader {
+    margin: 3%;
+    font-size: 4em; 
+    font-family: "Tahoma", sans-serif, bold; 
+    padding: 30px; 
+    font-color: white;
+    position: relative; 
+    text-align: center; 
+    color: white; 
+}
+
+.htext {
+    position: relative;
+    text-align: center; 
+    max-width: 100%;  
+    margin: auto;  
+    top: 50%;
+    bottom: 50%;
+    font-size: 100px; 
+    font-family: "Tahoma";
+    font-color: white;
+}
+
+ .button {
+     padding: 5px;
+     font-size: 13px;
+     font-family: 'Tahoma';
+     font-color: grey;
+     border: 1px solid #dbceda;
+     border-radius: 10px;
+     float: left;
+     margin-left: 10px;
+     text-align: center;
+}    
+    
+a:link {
+    color: #4287f5;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #42f54e;
+}
